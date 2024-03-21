@@ -85,26 +85,26 @@ void retroceder(){
   analogWrite(IN1, 0);
   analogWrite(IN2, 255);
   analogWrite(IN3, 0);
-  analogWRite(IN4, 255);
+  analogWrite(IN4, 255);
 }
 
 void detener(){
   analogWrite(IN1, 0);
   analogWrite(IN2, 0);
   analogWrite(IN3, 0);
-  analogWRite(IN4, 0);
+  analogWrite(IN4, 0);
 }
 
 void giroDerecha(){
   analogWrite(IN1, 255);
   analogWrite(IN2, 0);
   analogWrite(IN3, 0);
-  analogWRite(IN4, 255);
+  analogWrite(IN4, 255);
 }
 
 void giroIzquierda(){
   analogWrite(IN1, 0);
   analogWrite(IN2, 255);
   analogWrite(IN3, 255);
-  analogWRite(IN4, 0);
+  analogWrite(IN4, 0);
 }
