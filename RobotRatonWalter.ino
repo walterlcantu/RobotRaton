@@ -25,9 +25,9 @@ void setup() {
   pinMode(Echo_L, INPUT);      //Echo de ultrasónico izquierdo como entrada
   pinMode(Trigger_R, OUTPUT);  //Trigger de ultrasónico derecho como salida
   pinMode(Echo_R, INPUT);      //Echo de ultrasónico derecho como entrada
-  digitalWrite(Trigger1, LOW); //Inicializamos el pin con 0
-  digitalWrite(Trigger2, LOW); //Inicializamos el pin con 0
-  digitalWrite(Trigger3, LOW); //Inicializamos el pin con 0
+  digitalWrite(Trigger_F, LOW); //Inicializamos el pin con 0
+  digitalWrite(Trigger_L, LOW); //Inicializamos el pin con 0
+  digitalWrite(Trigger_R, LOW); //Inicializamos el pin con 0
 }
 
 void loop() {
